@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Palanquin+Dark&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(68.15deg, #080606 16.62%, #5e1111 85.61%)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 18px;
+}
+
+.cabecalho-item-menu{
+    font-family: 'Palanquin Dark', sans-serif;
+    weight: 400;
+    color: rgba(168, 63, 63, 0.781);
+    
+}
+
+.cabecalho-item-menu:hover{
+    background-color: black;
+    border-radius: 10px;
+    padding: 4px;
+    transition-duration: 0.4s;
+}
+
+.conteudo{
+    border-top: 0.4px solid black;
+    margin-bottom: 40px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(168, 63, 63, 0.781)
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Jim Nightshade', cursive;
+    font-weight: 400;
+    fonte-size: 35px;
+    color: white;
+}
+
+.conteudo-principal-botao{
+    background-color: rgba(168, 63, 63, 0.781);
+    width: 180px;
+    height: 50px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+}
+
+.conteudo-principal-botao:hover{
+    background-color: rgb(255, 196, 0);
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.7px solid black;
+    padding-top: 24px;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: rgba(168, 63, 63, 0.781);
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.rodape{
+    border-top: 0.4px solid black;
+    padding: 34px;
+}
+
+.rodape-imagem{
+    display: block;
+    margin: 0 auto;
+}
